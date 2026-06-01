@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meeting Silencer Setup"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvStatusNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="○ Notification Access: Pending"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvStatusDND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="○ DND Access: Pending"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvStatusService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="○ Background Service: Not Running"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnPermission"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Check &amp; Grant Permissions" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The app needs these to detect Teams meetings and silence your ringer."
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:alpha="0.7"/>
+</LinearLayout>
