@@ -1,0 +1,2 @@
+# Teams-silencer
+Meeting Silencer is an Android application designed to automatically silence your phone whenever you are in a Microsoft Teams meeting or have your status set to "Busy" or "Do Not Disturb". It ensures you are never interrupted by a loud ringer during important calls.
